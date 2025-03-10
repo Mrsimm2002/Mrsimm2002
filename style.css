@@ -1,0 +1,465 @@
+html
+{
+    font-family: "Assistant", serif;
+    font-size: 36px;
+}
+/*This is the CSS code for the Main Header*/
+header
+{
+    float: left;
+    margin: auto;
+    width: 100%;
+    vertical-align: middle;
+    text-align: center;
+    position: relative;
+    outline: 10px solid black;
+    background-color: black;
+    border-top: 4px solid #FBAF2D;
+    border-left: 4px solid #FBAF2D;
+    border-right: 4px solid #FBAF2D;
+    border-bottom: 4px solid #FBAF2D;
+    border-radius: 10%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+header img
+{
+    padding-left: 20px;
+    float: left;
+}
+/*This is the CSS code for the Navagation elements*/
+nav
+{
+
+    margin: auto;
+    text-align: center;
+}
+.nav_links
+{
+    padding-left: 20px;
+    padding-top: 90px;
+    float: left;
+    position: relative;
+}
+.nav_links li a
+{    
+
+    text-align: center;
+    font-size: 65px;
+    color: #FFFF;
+}
+.nav_links li
+{
+    margin: 20px;
+    font-size: 50px;
+    display: inline-block;
+    text-align: center;
+    padding: 0px 20px;
+    color: #FFFF;
+ }
+ ul
+{
+    margin: auto;
+    text-align: center;
+    color: #FFFF;
+
+}
+ /*This is the CSS code for the links*/
+
+a
+{
+    text-decoration: none;
+}
+a:hover
+{
+    text-decoration: underline;
+}
+ /*This is the CSS code for the promotional content*/
+
+.slides
+{
+    clear: left;
+    border-radius: 10%;
+    outline: 10px solid black;
+    border-top: 4px solid #FBAF2D;
+    border-left: 4px solid #FBAF2D;
+    border-right: 4px solid #FBAF2D;
+    border-bottom: 4px solid #FBAF2D;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 99%;
+    height: 750px;
+}
+ /*This is the CSS code for the slogan on the home page*/
+
+.Head11
+{
+    color: #FFFF;
+    text-align: center;
+    background-color: black;
+    border-radius: 10%;
+    outline: 10px solid black;
+    border-top: 4px solid #FBAF2D;
+    border-left: 4px solid #FBAF2D;
+    border-right: 4px solid #FBAF2D;
+    border-bottom: 4px solid #FBAF2D;
+}
+ /*This is the CSS code for the headers*/
+h1
+{
+   color: #FFFF
+}
+h2
+{
+    text-align: center;
+}
+ /*This is the CSS code for the containers on the home page*/
+
+.containerH 
+{
+    display: flex;
+    justify-content: space-between; 
+    align-items: stretch;    
+    gap: 20px;               
+  }
+  .Left-ContainerH p
+{
+    margin-left: 10px;
+}
+.Left-ContainerH
+{
+    text-align: center;
+    position: relative;
+    flex: 1;
+    border-radius: 10%;
+    color: #FFFF;
+    background-color: black;
+    outline: 10px solid black;
+    border-top: 4px solid #FBAF2D;
+    border-left: 4px solid #FBAF2D;
+    border-right: 4px solid #FBAF2D;
+    border-bottom: 4px solid #FBAF2D;
+    display: flex;
+    flex-direction: column; 
+    width: 45%;
+}
+
+.Left-ContainerH a
+{
+    font-size: 60px;
+    color: #FFFF;
+    padding-bottom: 25px;
+    padding-right: 25px;
+    position: absolute;
+    bottom:0;
+    right:0;
+    left: 0;
+}
+.Right-ContainerH
+{
+    flex: 1;
+    display: flex;
+    border-radius: 10%;
+    background-color: black;
+    outline: 10px solid black;
+    border-top: 4px solid #FBAF2D;
+    border-right: 4px solid #FBAF2D;
+    border-bottom: 4px solid #FBAF2D;
+    border-left: 4px solid #FBAF2D;
+    width: 100%;
+    justify-content: center; 
+    align-items: center; 
+    overflow: hidden;
+}
+.Right-ContainerH img
+{
+    width: 100%;
+}
+ /*This is the CSS code for the paragraph on the Who Are We page*/
+
+.WAW-Text
+{
+   text-align: center;
+   color: #FFFF;
+   border-radius: 10%;
+   outline: 10px solid black;
+   background-color: black;
+   border-top: 4px solid #FBAF2D;
+   border-left: 4px solid #FBAF2D;
+   border-right: 4px solid #FBAF2D;
+   border-bottom: 4px solid #FBAF2D;
+   justify-content: space-between;
+   padding: 30px 10%
+}
+ /*This is the CSS code for the containers on the services page*/
+
+.box
+{
+    display: flex;           
+    justify-content: center;    
+    align-items: center;       
+    gap: 5px; 
+}
+.ServiceLinkL
+{
+    text-align: center;
+    flex: 1;
+    position: relative;
+    color: #FFFF;
+    border-radius: 10%;
+    outline: 10px solid black;
+    border-top: 4px solid #FBAF2D;
+    border-left: 4px solid #FBAF2D;
+    border-right: 4px solid #FBAF2D;
+    border-bottom: 4px solid #FBAF2D;
+    background-color: black;
+    width: 30%;
+    margin: 20px;
+}
+.I1
+{
+    margin-right: 5%;
+    padding: 10px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    border-top: 4px solid #FBAF2D;
+    border-left: 4px solid #FBAF2D;
+    border-right: 4px solid #FBAF2D;
+    border-bottom: 4px solid #FBAF2D;
+}
+ /*This is the CSS code for the form on the form page*/
+fieldset
+{
+   text-align: center;
+   padding: 30px;
+   border-radius: 10%;
+   color: #FFFF;
+   outline: 10px solid black;
+   background-color: black;
+   border-top: 4px solid #FBAF2D;
+   border-left: 4px solid #FBAF2D;
+   border-right: 4px solid #FBAF2D;
+   border-bottom: 4px solid #FBAF2D;
+}
+textarea
+{
+   font-size: 30px;
+   text-align: center;
+}
+.container {
+    position: relative;
+    display: flex;  
+    align-items: stretch;  
+  }
+
+  .PP img
+{
+        width: 100%;   
+        object-fit: cover;  
+}
+
+
+.PT
+{
+    flex: 1;
+    text-align: center;
+    color: #FFFF;
+    background-color: black;
+    outline: 5px solid black;
+    border-top: 4px solid #FBAF2D;
+    border-left: 4px solid #FBAF2D;
+    border-right: 4px solid #FBAF2D;
+    border-bottom: 4px solid #FBAF2D;
+    width: 45%;
+}
+.PP
+{
+    flex: 1;
+    position: relative;
+    background-color: black;
+    outline: 5px solid black;
+    border-left: 4px solid #FBAF2D;
+    border-top: 4px solid #FBAF2D;
+    border-right: 4px solid #FBAF2D;
+    border-bottom: 4px solid #FBAF2D;
+    display: block;
+    width: 40%;
+    overflow: hidden;
+}
+body{
+    background-color: #0000A8;
+}
+
+
+
+
+.ServiceLinkH
+{
+    float: left;
+    color: #FFFF;
+    position: relative;
+    border-radius: 10%;
+    outline: 10px solid black;
+    border-top: 4px solid #FBAF2D;
+    border-left: 4px solid #FBAF2D;
+    border-right: 4px solid #FBAF2D;
+    border-bottom: 4px solid #FBAF2D;
+    background-color: black;
+    height: 500px;
+    width: 40%;
+    padding-left: 5%;
+}
+
+.ServiceLinkH a
+{
+    font-size: 50px;
+    color:#FFFF;
+    border-top: 4px solid #FBAF2D;
+    border-left: 4px solid #FBAF2D;
+    
+}
+.SL
+{
+    text-align:right;
+    position: absolute;
+    bottom: 0; 
+    right: 0;
+    font-size: 50px;
+    color:#FFFF;
+    border-top: 4px solid #FBAF2D;
+    border-left: 4px solid #FBAF2D;
+    padding-bottom: 25px;
+    padding-right: 25px;
+    
+}
+.ProjectsLinkH
+{
+    float: right;
+    position: relative;
+    color: #FFFF;
+    border-radius: 10%;
+    outline: 10px solid black;
+    border-top: 4px solid #FBAF2D;
+    border-left: 4px solid #FBAF2D;
+    border-right: 4px solid #FBAF2D;
+    border-bottom: 4px solid #FBAF2D;
+    background-color: black;
+    height: 500px;
+    width: 40%;
+    padding-left: 5%;
+}
+
+.HLcopy
+{
+    float: left;
+    position: relative;
+    color: #FFFF;
+    border-radius: 10%;
+    outline: 10px solid black;
+    border-top: 4px solid #FBAF2D;
+    border-left: 4px solid #FBAF2D;
+    border-right: 4px solid #FBAF2D;
+    border-bottom: 4px solid #FBAF2D;
+    background-color: black;
+    width: 45%;
+    margin: 20px;
+    overflow: hidden;
+}
+.PL
+{
+    text-align: center;
+    font-size: 50px;
+    color:#FFFF;
+    border-top: 4px solid #FBAF2D;
+    border-left: 4px solid #FBAF2D;
+    padding-bottom: 25px;
+    padding-right: 25px;
+}
+#name, #email, #phone, #message
+{
+    font-size: 30px;
+}
+ .Name
+ {
+    width: 600px;
+    border-radius: 10%;
+    outline: 10px solid #0000A8;
+    border-top: 4px solid #FBAF2D;
+    border-left: 4px solid #FBAF2D;
+    border-right: 4px solid #FBAF2D;
+    border-bottom: 4px solid #FBAF2D;
+ }
+ /*This is the CSS code for the submit button on the form page*/
+ .Button
+ {
+    width: 200px;
+    height: 100px;
+ }
+ .Button:hover
+ {
+    background-color: #0000A8;
+    color: #FBAF2D;
+ }
+
+.tcontainer
+{
+    display: flex;
+    justify-content: space-between; 
+    align-items: stretch;    
+    gap: 20px;   
+}
+.TPT
+{
+    text-align: center;
+    position: relative;
+    flex: 1;
+    border-radius: 10%;
+    color: #FFFF;
+    background-color: black;
+    outline: 10px solid black;
+    border-top: 4px solid #FBAF2D;
+    border-left: 4px solid #FBAF2D;
+    border-right: 4px solid #FBAF2D;
+    border-bottom: 4px solid #FBAF2D;
+    display: flex;
+    flex-direction: column; 
+    width: 45%;
+}
+.TPP
+{
+    flex: 1;
+    display: flex;
+    border-radius: 10%;
+    background-color: black;
+    outline: 10px solid black;
+    border-top: 4px solid #FBAF2D;
+    border-right: 4px solid #FBAF2D;
+    border-bottom: 4px solid #FBAF2D;
+    border-left: 4px solid #FBAF2D;
+    width: 45%;
+    justify-content: center; 
+    align-items: center; 
+    overflow: hidden;
+}
+
+.TPP img
+{
+    max-width: 100%;
+    height: auto;
+}
+ /*This is the CSS code for the footer*/
+ footer
+ {
+    border-radius: 10%;
+    outline: 10px solid black;
+    background-color: black;
+    border-top: 4px solid #FBAF2D;
+    border-left: 4px solid #FBAF2D;
+    border-right: 4px solid #FBAF2D;
+    border-bottom: 4px solid #FBAF2D;
+    text-align: center; 
+}
