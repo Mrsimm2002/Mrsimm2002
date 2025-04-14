@@ -2,6 +2,9 @@
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name = htmlspecialchars(trim($_POST["name"]), ENT_QUOTES, 'UTF-8');
     $email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
+if (!filter_var($email, FILTER_VALIDATE_EMAIL) || preg_match("/[\r\n]/", $email)) {
+    die("Invalid email address.");
+}
     $phone = htmlspecialchars(trim($_POST["phone"]), ENT_QUOTES, 'UTF-8');
     $comments = htmlspecialchars(trim($_POST["message"]), ENT_QUOTES, 'UTF-8');
     $contact_reason = htmlspecialchars($_POST["contact_reason"], ENT_QUOTES, 'UTF-8');
